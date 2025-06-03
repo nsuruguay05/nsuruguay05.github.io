@@ -319,7 +319,7 @@ function loadEducation(lang) {
                     ed.keywords.forEach(k => html += `<span class="keyword">${k}</span>`);
                     html += '</div>';
                 }                if (ed.link) {
-                    html += `<div class="publication-links"><a href="${ed.pdf}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a></div>`;
+                    html += `<div class="publication-links"><a href="${ed.link}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a></div>`;
                 }
                 html += `</div></div>`;
                 timeline.innerHTML += html;
