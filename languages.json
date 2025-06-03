@@ -1,0 +1,26 @@
+[
+  {
+    "en": {
+      "name": "Spanish",
+      "description": "Native speaker",
+      "certification": null
+    },
+    "es": {
+      "name": "Español",
+      "description": "Hablante nativo",
+      "certification": null
+    }
+  },
+  {
+    "en": {
+      "name": "English",
+      "description": "Advanced",
+      "certification": "First Certificate in English"
+    },
+    "es": {
+      "name": "Inglés",
+      "description": "Avanzado",
+      "certification": "First Certificate in English"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+    "date": "2024 - Ongoing",
+    "en": {
+      "degree": "Master in Computer Science",
+      "institution": "Universidad de la República - Faculty of Engineering, Institute of Computing, Uruguay",
+      "advisors_label": "Advisor:",
+      "advisors": "Aiala Rosá"
+    },
+    "es": {
+      "degree": "Maestría en Informática",
+      "institution": "Universidad de la República - Facultad de Ingeniería, Instituto de Computación, Uruguay",
+      "advisors_label": "Tutora:",
+      "advisors": "Aiala Rosá"
+    }
+  },
+  {
+    "date": "2018 - 2024",
+    "en": {
+      "degree": "Computer Engineering",
+      "institution": "Universidad de la República - Faculty of Engineering, Institute of Computing, Uruguay",
+      "thesis_label": "Thesis:",
+      "thesis": "Question Answering in institutional documents using Large Language Models",
+      "advisors_label": "Advisors:",
+      "advisors": "Aiala Rosá, Guillermo Moncecchi",
+      "link": "https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/46066" 
+    },
+    "es": {
+      "degree": "Ingeniería en Computación",
+      "institution": "Universidad de la República - Facultad de Ingeniería, Instituto de Computación, Uruguay",
+      "thesis_label": "Tesis:",
+      "thesis": "Búsqueda de respuestas en documentos institucionales utilizando grandes modelos de lenguaje",
+      "advisors_label": "Tutores:",
+      "advisors": "Aiala Rosá, Guillermo Moncecchi",
+      "link": "https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/46066" 
+    }
+  }
+]

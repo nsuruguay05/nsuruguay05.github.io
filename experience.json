@@ -1,0 +1,71 @@
+[
+  {
+    "type": "job",
+    "en": {
+      "date": "02/2022 - Present",
+      "title": "Teaching Assistant",
+      "institution": "Universidad de la República - Faculty of Engineering, Institute of Computing",
+      "description": "Grade 1 - Interim Position"
+    },
+    "es": {
+      "date": "02/2022 - Presente",
+      "title": "Ayudante",
+      "institution": "Universidad de la República - Facultad de Ingeniería, Instituto de Computación",
+      "description": "Grado 1 - Cargo Interino"
+    }
+  },
+  {
+    "type": "job",
+    "en": {
+      "date": "02/2023 - Present",
+      "title": "AI Solutions Architect",
+      "institution": "Cognitive Solutions",
+      "description": "Design and development of B2B product for building agents with LLMs"
+    },
+    "es": {
+      "date": "02/2023 - Presente",
+      "title": "AI Solutions Architect",
+      "institution": "Cognitive Solutions",
+      "description": "Diseño y desarrollo de producto B2B para construcción de agentes con LLMs"
+    }
+  },
+  {
+    "type": "teaching",
+    "en": {
+      "title": "Neural Networks for Natural Language",
+      "info": "07/2024 - Present",
+      "level": "Undergraduate and graduate course"
+    },
+    "es": {
+      "title": "Redes Neuronales para Lenguaje Natural",
+      "info": "07/2024 - Presente",
+      "level": "Curso de grado y posgrado"
+    }
+  },
+  {
+    "type": "teaching",
+    "en": {
+      "title": "Logic",
+      "info": "02/2022 - Present",
+      "level": "Undergraduate course"
+    },
+    "es": {
+      "title": "Lógica",
+      "info": "02/2022 - Presente",
+      "level": "Curso de grado"
+    }
+  },
+  {
+    "type": "teaching",
+    "en": {
+      "title": "Computer Science 1",
+      "info": "02/2022 - 07/2024",
+      "level": "Undergraduate course"
+    },
+    "es": {
+      "title": "Computación 1",
+      "info": "02/2022 - 07/2024",
+      "level": "Curso de grado"
+    }
+  }
+]

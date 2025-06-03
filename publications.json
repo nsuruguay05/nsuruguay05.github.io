@@ -1,0 +1,30 @@
+[
+  {
+    "en": {
+      "title": "Derivation Prompting: A Logic-Based Method for Improving Retrieval-Augmented Generation (2024)",
+      "authors": "Ignacio Sastre, Aiala Rosá, Guillermo Moncecchi",
+      "venue": "18th Ibero-American Conference on Artificial Intelligence (Iberamia'2024)",
+      "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-80366-6_34"
+    },
+    "es": {
+      "title": "Derivation Prompting: A Logic-Based Method for Improving Retrieval-Augmented Generation (2024)",
+      "authors": "Ignacio Sastre, Aiala Rosá, Guillermo Moncecchi",
+      "venue": "18th Ibero-American Conference on Artificial Intelligence (Iberamia'2024)",
+      "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-80366-6_34"
+    }
+  },
+  {
+    "en": {
+      "title": "RETUYT-InCo at BEA 2023 Shared Task: Tuning Open-Source LLMs for Generating Teacher Responses (2023)",
+      "authors": "Alexis Baladón, Ignacio Sastre, Luis Chiruzzo, Aiala Rosá",
+      "venue": "Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)",
+      "pdf": "https://aclanthology.org/2023.bea-1.61/"
+    },
+    "es": {
+      "title": "RETUYT-InCo at BEA 2023 Shared Task: Tuning Open-Source LLMs for Generating Teacher Responses (2023)",
+      "authors": "Alexis Baladón, Ignacio Sastre, Luis Chiruzzo, Aiala Rosá",
+      "venue": "Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)",
+      "pdf": "https://aclanthology.org/2023.bea-1.61/"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "line",
+    "en": {
+      "title": "Natural Language Processing Group",
+      "role": "09/2022 - Present | Team Member",
+      "description": "The Natural Language Processing (NLP) group exists at the Institute of Computing, Faculty of Engineering, Universidad de la República since the early 90s. It has oriented its activity both to the theoretical foundations of human language processing and to the development of processing methods and applications."
+    },
+    "es": {
+      "title": "Grupo de Procesamiento de Lenguaje Natural",
+      "role": "09/2022 - Presente | Integrante del equipo",
+      "description": "El grupo de Procesamiento de Lenguaje Natural (PLN) existe en el Instituto de Computación, Facultad de Ingeniería, Universidad de la República desde principios de los 90. Ha orientado su actividad tanto a los fundamentos teóricos del procesamiento del lenguaje humano como al desarrollo de métodos de procesamiento y de aplicaciones."
+    }
+  },
+  {
+    "type": "project",
+    "en": {
+      "title": "Controlled generation methods for building conversational agents to support teaching",
+      "role": "01/2024 - Present | Team Member",
+      "description": "Research on possible applications of LLMs to teaching, adapting them to specific domains, in controlled contexts, where the information sources used to generate outputs are reliable and selected by teachers."
+    },
+    "es": {
+      "title": "Métodos de generación controlada para la construcción de agentes conversacionales de apoyo a la enseñanza",
+      "role": "01/2024 - Presente | Integrante del Equipo",
+      "description": "Investigación sobre posibles aplicaciones de los LLMs a la enseñanza, adaptándolos a dominios específicos, en contextos controlados, en donde las fuentes de información que se utilizan para generar salidas son confiables y seleccionadas por docentes."
+    }
+  },
+  {
+    "type": "project",
+    "en": {
+      "title": "AI for processing documentary archives and its application to recent past archives",
+      "role": "07/2023 - 10/2024 | Team Member",
+      "description": "Multidisciplinary project including faculty, researchers and students from the faculties of Information and Communication, Social Sciences, and Engineering, dedicated to analyzing documents produced during the last dictatorship in Uruguay."
+    },
+    "es": {
+      "title": "IA para el procesamiento de archivos documentales y su aplicación al caso de los archivos del pasado reciente",
+      "role": "07/2023 - 10/2024 | Integrante del Equipo",
+      "description": "Proyecto multidisciplinario que incluye a docentes, investigadores y estudiantes de las facultades de Información y Comunicación, Ciencias Sociales, e Ingeniería, dedicados al análisis de los documentos producidos durante la última dictadura en Uruguay."
+    }
+  },
+  {
+    "type": "extension",
+    "en": {
+      "title": "CINACINA: English Training in the Classroom with Artificial Intelligence",
+      "subtitle": "09/2022 - Present | Team Member",
+      "description": "Collaboration between FING, FIC and ANEP for creating artificial intelligence tools to support English teaching in schools, mainly in rural areas."
+    },
+    "es": {
+      "title": "CINACINA: Capacitación en Inglés en el Aula Con Inteligencia Artificial",
+      "subtitle": "09/2022 - Presente | Integrante del Equipo",
+      "description": "Colaboración entre FING, FIC y ANEP para la creación de herramientas de inteligencia artificial para dar soporte a la enseñanza de inglés en escuelas, principalmente en el medio rural."
+    }
+  }
+]

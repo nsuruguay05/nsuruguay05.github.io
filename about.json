@@ -1,0 +1,19 @@
+{
+  "en": {
+    "paragraphs": [
+      "Since the second semester of 2022, I have been a member of the Natural Language Processing (NLP) research group at the Institute of Computing (Faculty of Engineering). My work has focused on using large language models (LLMs) to solve different NLP tasks.",
+      "As part of my recently defended undergraduate thesis, I explored techniques such as Retrieval-Augmented Generation (RAG) for Question Answering over a knowledge base of educational documents. I also proposed the 'derivation prompting' technique, which was presented at Iberamia'2024.",
+      "For my Master's thesis, I am investigating long-term memory methods beyond RAG, focusing on parametric approaches that enable LLMs to acquire and retain knowledge over time."
+    ],
+    "stats": [
+
+    ]
+  },
+  "es": {
+    "paragraphs": [
+      "Desde el segundo semestre de 2022 formo parte del grupo de investigación de Procesamiento de Lenguaje Natural (PLN) del Instituto de Computación (Facultad de Ingeniería). Mi trabajo se ha centrado en el uso de grandes modelos de lenguaje (LLMs) para resolver distintas tareas de PLN.",
+      "En el contexto de mi proyecto de grado recientemente defendido, exploré técnicas como Retrieval-Augmented Generation (RAG) para la búsqueda de respuestas utilizando LLMs sobre una base de documentos relacionados a la enseñanza. También propuse la técnica de prompting de derivaciones, presentada en Iberamia'2024.",
+      "En mi tesis de maestría, estoy investigando métodos de memoria a largo plazo más allá de RAG, enfocándome en enfoques paramétricos que permitan a los LLMs adquirir y retener conocimiento a lo largo del tiempo."
+    ]
+  }
+}
