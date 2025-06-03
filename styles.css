@@ -85,8 +85,6 @@ body {
 .lang-switcher {
     display: flex;
     gap: 0.5rem;
-    border-left: 1px solid var(--border);
-    padding-left: 1rem;
 }
 
 .lang-btn {
@@ -595,6 +593,66 @@ main {
 .footer p {
     font-size: 14px;
     color: var(--text-light);
+}
+
+/* Color Picker Styles */
+.nav-tools {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.color-picker-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.color-picker-btn {
+    width: 36px;
+    height: 36px;
+    border: 0px;
+    background: var(--bg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    color: var(--text-light);
+}
+
+.color-picker-btn:hover {
+    border-color: var(--accent);
+    background: var(--light-gray);
+    color: var(--accent);
+}
+
+.color-picker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    opacity: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+.color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.color-picker::-webkit-color-swatch {
+    border: none;
+    border-radius: 6px;
+}
+
+.color-picker::-moz-color-swatch {
+    border: none;
+    border-radius: 6px;
 }
 
 /* Responsive Design */

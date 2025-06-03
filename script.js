@@ -7,6 +7,8 @@ const navMenu = document.querySelector('.nav-menu');
 const langEnBtn = document.getElementById('lang-en');
 const langEsBtn = document.getElementById('lang-es');
 const contactForm = document.getElementById('contact-form');
+const colorPicker = document.getElementById('color-picker');
+const colorPickerBtn = document.getElementById('color-picker-btn');
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function() {
@@ -15,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeScrollBehavior();
     initializeContactForm();
     initializeAnimations();
+    initializeColorPicker();
     loadAbout(currentLang);
     loadPublications(currentLang);
     loadExperience(currentLang);
@@ -230,6 +233,72 @@ function initializeAnimations() {
     }
 }
 
+// Color picker functionality
+function initializeColorPicker() {
+    if (colorPicker && colorPickerBtn) {        // Initialize color picker with current accent color
+        colorPicker.value = '#2563eb'; // Default blue color
+        
+        colorPicker.addEventListener('input', function() {
+            const color = this.value;
+            // Update CSS custom property for accent color
+            document.documentElement.style.setProperty('--accent', color);
+            
+            // Calculate darker shade for hover effects
+            const darkerColor = adjustColor(color, -20);
+            document.documentElement.style.setProperty('--accent-dark', darkerColor);
+            
+            // Update any elements that use the darker shade
+            const style = document.createElement('style');
+            style.textContent = `
+                .btn-primary:hover { background: ${darkerColor} !important; }
+                .pub-link:hover { color: ${darkerColor} !important; }
+            `;
+            
+            // Remove any existing dynamic style
+            const existingStyle = document.getElementById('dynamic-color-style');
+            if (existingStyle) {
+                existingStyle.remove();
+            }
+            
+            style.id = 'dynamic-color-style';
+            document.head.appendChild(style);
+            
+            // Save to localStorage
+            localStorage.setItem('accentColor', color);
+        });
+        
+        // Load saved color from localStorage
+        const savedColor = localStorage.getItem('accentColor');
+        if (savedColor) {
+            colorPicker.value = savedColor;
+            colorPicker.dispatchEvent(new Event('input'));
+        }
+        
+        // Open color picker dialog on button click
+        colorPickerBtn.addEventListener('click', function() {
+            colorPicker.click();
+        });
+    }
+}
+
+// Helper function to adjust color brightness
+function adjustColor(color, amount) {
+    const usePound = color[0] === '#';
+    const col = usePound ? color.slice(1) : color;
+    
+    const num = parseInt(col, 16);
+    
+    let r = (num >> 16) + amount;
+    let g = (num >> 8 & 0x00FF) + amount;
+    let b = (num & 0x0000FF) + amount;
+    
+    r = r > 255 ? 255 : r < 0 ? 0 : r;
+    g = g > 255 ? 255 : g < 0 ? 0 : g;
+    b = b > 255 ? 255 : b < 0 ? 0 : b;
+    
+    return (usePound ? '#' : '') + (r << 16 | g << 8 | b).toString(16).padStart(6, '0');
+}
+
 // Publications dynamic loading
 function loadPublications(lang) {
     fetch('publications.json')
@@ -421,8 +490,7 @@ function loadLanguages(lang) {
 
 // Utility functions
 function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.style.cssText = `
+    const notification = document.createElement('div');    notification.style.cssText = `
         position: fixed;
         top: 100px;
         right: 20px;
