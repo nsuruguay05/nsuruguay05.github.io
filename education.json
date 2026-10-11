@@ -1,15 +1,34 @@
 [
     {
-    "date": "2024 - Ongoing",
+      "date": "2026 - Ongoing",
+      "en": {
+        "degree": "PhD in Computer Science",
+        "institution": "Universidad de la República - Faculty of Engineering, Institute of Computing, Uruguay",
+        "advisors_label": "Advisor:",
+        "advisors": "Aiala Rosá"
+      },
+      "es": {
+        "degree": "Doctorado en Informática",
+        "institution": "Universidad de la República - Facultad de Ingeniería, Instituto de Computación, Uruguay",
+        "advisors_label": "Tutora:",
+        "advisors": "Aiala Rosá"
+      }
+    },
+    {
+    "date": "2024 - 2026",
     "en": {
       "degree": "Master in Computer Science",
       "institution": "Universidad de la República - Faculty of Engineering, Institute of Computing, Uruguay",
+      "thesis_label": "Thesis:",
+      "thesis": "Finding New Token Embeddings in the Input Space of Large Language Models",
       "advisors_label": "Advisor:",
       "advisors": "Aiala Rosá"
     },
     "es": {
       "degree": "Maestría en Informática",
       "institution": "Universidad de la República - Facultad de Ingeniería, Instituto de Computación, Uruguay",
+      "thesis_label": "Tesis:",
+      "thesis": "Finding New Token Embeddings in the Input Space of Large Language Models",
       "advisors_label": "Tutora:",
       "advisors": "Aiala Rosá"
     }

@@ -1,16 +1,44 @@
 [
   {
     "en": {
+      "title": "Concept Tokens: Learning Behavioral Embeddings Through Concept Definitions (2026)",
+      "authors": "Ignacio Sastre, Aiala Rosá",
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "pdf": "https://aclanthology.org/2026.findings-acl.1319/"
+    },
+    "es": {
+      "title": "Concept Tokens: Learning Behavioral Embeddings Through Concept Definitions (2026)",
+      "authors": "Ignacio Sastre, Aiala Rosá",
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "pdf": "https://aclanthology.org/2026.findings-acl.1319/"
+    }
+  },
+    {
+    "en": {
+      "title": "Memory Tokens: Large Language Models Can Generate Reversible Sentence Embeddings (2025)",
+      "authors": "Ignacio Sastre, Aiala Rosá",
+      "venue": "First Workshop on Large Language Model Memorization (L2M2), ACL 2025",
+      "pdf": "https://aclanthology.org/2025.l2m2-1.14/"
+    },
+    "es": {
+      "title": "Memory Tokens: Large Language Models Can Generate Reversible Sentence Embeddings (2025)",
+      "authors": "Ignacio Sastre, Aiala Rosá",
+      "venue": "First Workshop on Large Language Model Memorization (L2M2), ACL 2025",
+      "pdf": "https://aclanthology.org/2025.l2m2-1.14/"
+    }
+  },
+    {
+    "en": {
       "title": "Derivation Prompting: A Logic-Based Method for Improving Retrieval-Augmented Generation (2024)",
       "authors": "Ignacio Sastre, Aiala Rosá, Guillermo Moncecchi",
       "venue": "18th Ibero-American Conference on Artificial Intelligence (Iberamia'2024)",
-      "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-80366-6_34"
+      "pdf": "https://arxiv.org/abs/2605.14053"
     },
     "es": {
       "title": "Derivation Prompting: A Logic-Based Method for Improving Retrieval-Augmented Generation (2024)",
       "authors": "Ignacio Sastre, Aiala Rosá, Guillermo Moncecchi",
       "venue": "18th Ibero-American Conference on Artificial Intelligence (Iberamia'2024)",
-      "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-80366-6_34"
+      "pdf": "https://arxiv.org/abs/2605.14053"
     }
   },
   {

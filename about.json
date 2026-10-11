@@ -1,9 +1,9 @@
 {
   "en": {
     "paragraphs": [
-      "Since the second semester of 2022, I have been a member of the Natural Language Processing (NLP) research group at the Institute of Computing (Faculty of Engineering). My work has focused on using large language models (LLMs) to solve different NLP tasks.",
-      "As part of my recently defended undergraduate thesis, I explored techniques such as Retrieval-Augmented Generation (RAG) for Question Answering over a knowledge base of educational documents. I also proposed the 'derivation prompting' technique, which was presented at Iberamia'2024.",
-      "For my Master's thesis, I am investigating long-term memory methods beyond RAG, focusing on parametric approaches that enable LLMs to acquire and retain knowledge over time."
+      "As part of my recently defended master's thesis, I investigated long-term memory methods beyond RAG, focusing on parametric approaches that enable LLMs to acquire and retain knowledge over time.",
+      "In this context, I presented a paper on Memory Tokens at the L2M2 workshop (2025), introducing a method for memorizing text sequences in a single embedding, which, when used as input to an LLM, enables the model to fully reconstruct the original text. Additionally, I presented another paper at Findings of ACL (2026) on Concept Tokens, an extension of the previous idea that enables learning concept embeddings from definitions and integrating them into an LLM's vocabulary.",
+      "Previously, in my undergraduate thesis, I explored techniques such as Retrieval-Augmented Generation (RAG) for question answering over a collection of educational documents using LLMs. I also proposed the 'derivation prompting' technique, which was presented at Iberamia'2024."
     ],
     "stats": [
 
@@ -12,8 +12,9 @@
   "es": {
     "paragraphs": [
       "Desde el segundo semestre de 2022 formo parte del grupo de investigación de Procesamiento de Lenguaje Natural (PLN) del Instituto de Computación (Facultad de Ingeniería). Mi trabajo se ha centrado en el uso de grandes modelos de lenguaje (LLMs) para resolver distintas tareas de PLN.",
-      "En el contexto de mi proyecto de grado recientemente defendido, exploré técnicas como Retrieval-Augmented Generation (RAG) para la búsqueda de respuestas utilizando LLMs sobre una base de documentos relacionados a la enseñanza. También propuse la técnica de prompting de derivaciones, presentada en Iberamia'2024.",
-      "En mi tesis de maestría, estoy investigando métodos de memoria a largo plazo más allá de RAG, enfocándome en enfoques paramétricos que permitan a los LLMs adquirir y retener conocimiento a lo largo del tiempo."
+      "En el contexto de mi tesis de maestría recientemente defendida, investigué métodos de memoria a largo plazo más allá de RAG, enfocándome en enfoques paramétricos que permitan a los LLMs adquirir y retener conocimiento a lo largo del tiempo.",
+      "En este contexto, presenté un artículo sobre Memory Tokens en el workshop L2M2 (2025), un método que permite memorizar secuencias de texto en un solo embedding, y que al ser utilizado como entrada de un LLM, este es capaz de reconstruir el texto completamente. Además, presenté otro artículo en Findings de ACL (2026) sobre Concept Tokens, una evolución de la idea anterior que permite obtener embeddings de conceptos a partir de definiciones, y que se integran al vocabulario de un LLM.",
+      "Anteriormente, en mi proyecto de grado, exploré técnicas como Retrieval-Augmented Generation (RAG) para la búsqueda de respuestas utilizando LLMs sobre una base de documentos relacionados a la enseñanza. También propuse la técnica de prompting de derivaciones, presentada en Iberamia'2024."
     ]
   }
 }
