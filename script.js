@@ -419,7 +419,7 @@ function loadResearch(lang) {
             // Research Projects
             const projectsDiv = document.getElementById('research-projects');
             if (projectsDiv) {
-                projectsDiv.innerHTML = '<h3 class="subsection-title" data-en="Research Projects" data-es="Proyectos de Investigación">Research Projects</h3>';
+                projectsDiv.innerHTML = `<h3 class="subsection-title">${lang === 'es' ? 'Proyectos de Investigación' : 'Research Projects'}</h3>`;
                 let grid = '<div class="project-grid">';
                 data.filter(item => item.type === 'project').forEach(item => {
                     const p = item[lang] || item['en'];
@@ -435,7 +435,7 @@ function loadResearch(lang) {
             // Extension Activities
             const extDiv = document.getElementById('research-extension');
             if (extDiv) {
-                extDiv.innerHTML = '<h3 class="subsection-title" data-en="Extension Activities" data-es="Actividades de Extensión">Extension Activities</h3>';
+                extDiv.innerHTML = `<h3 class="subsection-title">${lang === 'es' ? 'Actividades de Extensión' : 'Extension Activities'}</h3>`;
                 data.filter(item => item.type === 'extension').forEach(item => {
                     const e = item[lang] || item['en'];
                     let html = `<div class="extension-item">`;
