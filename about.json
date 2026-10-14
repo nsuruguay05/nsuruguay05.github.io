@@ -1,6 +1,7 @@
 {
   "en": {
     "paragraphs": [
+      "Since the second semester of 2022, I have been a member of the Natural Language Processing (NLP) research group at the Institute of Computing (Faculty of Engineering). My work has focused on using large language models (LLMs) to solve different NLP tasks.",
       "As part of my recently defended master's thesis, I investigated long-term memory methods beyond RAG, focusing on parametric approaches that enable LLMs to acquire and retain knowledge over time.",
       "In this context, I presented a paper on Memory Tokens at the L2M2 workshop (2025), introducing a method for memorizing text sequences in a single embedding, which, when used as input to an LLM, enables the model to fully reconstruct the original text. Additionally, I presented another paper at Findings of ACL (2026) on Concept Tokens, an extension of the previous idea that enables learning concept embeddings from definitions and integrating them into an LLM's vocabulary.",
       "Previously, in my undergraduate thesis, I explored techniques such as Retrieval-Augmented Generation (RAG) for question answering over a collection of educational documents using LLMs. I also proposed the 'derivation prompting' technique, which was presented at Iberamia'2024."
